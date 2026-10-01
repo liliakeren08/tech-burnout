@@ -213,7 +213,7 @@ def main():
     print("\n" + comparatif_txt)
 
     # Sauvegarde dans le fichier texte final
-    out_file = base_dir / "resultats_modeles_projet.txt"
+    out_file = base_dir / "benchmark_results.txt"
     with open(out_file, "w", encoding="utf-8") as f:
         f.write(comparatif_txt)
     print(f"-> Rendu final et matrices de confusion enregistres dans '{out_file.name}' !")
