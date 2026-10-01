@@ -1,0 +1,37 @@
+=====================================================================================
+            BENCHMARK PREDICTIF & EVALUATION DES MODELES DE CLASSIFICATION
+=====================================================================================
+Algorithme             | Accuracy   | Precision  | Recall     | F1-Score  
+-------------------------------------------------------------------------------------
+SVM (RBF)              |    90.40% |     0.00% |     0.00% |     0.00%
+Neural Network MLP     |    86.60% |    17.24% |    10.42% |    12.99%
+Random Forest          |    90.35% |    33.33% |     0.52% |     1.03%
+Logistic Regression    |    90.35% |    42.86% |     1.56% |     3.02%
+Perceptron Scratch     |    85.50% |     8.47% |     5.21% |     6.45%
+KNN Scratch (K=5)      |    89.55% |    20.69% |     3.12% |     5.43%
+=====================================================================================
+
+Matrice de Confusion (SVM (RBF)) :
+[[1808    0]
+ [ 192    0]]
+
+Matrice de Confusion (Neural Network MLP) :
+[[1712   96]
+ [ 172   20]]
+
+Matrice de Confusion (Random Forest) :
+[[1806    2]
+ [ 191    1]]
+
+Matrice de Confusion (Logistic Regression) :
+[[1804    4]
+ [ 189    3]]
+
+Matrice de Confusion (Perceptron Scratch) :
+[[1700  108]
+ [ 182   10]]
+
+Matrice de Confusion (KNN Scratch (K=5)) :
+[[1785   23]
+ [ 186    6]]
+
